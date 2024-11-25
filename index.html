@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/script.js" defer></script>
+    <title>Pig</title>
+  </head>
+  <body>
+    <h1>Pig, the dice game!</h1>
+    <p>Kasta tärningen och försök nå 100 poäng!</p>
+    <br />
+    <form>
+      <input type="Text" placeholder="Spelarens namn" />
+      <button id="nameBtn" type="submit">Ok</button>
+    </form>
+    <br />
+    <div id="game">
+      <h3></h3>
+      <br />
+      <h5>
+        Omgångens Poäng:
+        <p id="roundPoints">0</p>
+      </h5>
+      <h5>
+        Antal Spelade Omgångar:
+        <p id="nmbrOfRounds">0</p>
+      </h5>
+      <h2 id="dice">Tärning</h2>
+      <br />
+      <h4>
+        Totala Poäng:
+        <p id="totalPoints">0</p>
+      </h4>
+      <br />
+      <br />
+      <button id="kastaBtn">Kasta</button>
+      <button id="frysBtn">Frys</button>
+      <br />
+      <br />
+      <button id="resetBtn">Börja om</button>
+    </div>
+  </body>
+</html>

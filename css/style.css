@@ -1,0 +1,13 @@
+* {
+  max-width: 500px;
+  margin: 0 auto;
+}
+#game {
+  background-color: aquamarine;
+  padding: 20px;
+  padding-right: 100px;
+  border: 2px solid rgb(55, 112, 93);
+}
+h2 {
+  text-align: right;
+}
