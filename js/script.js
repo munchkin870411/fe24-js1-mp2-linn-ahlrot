@@ -51,6 +51,7 @@ function handleFreezeClick(event) {
 
   totalPoints += roundPoints;
   setInnerText(totalPointsElement, totalPoints);
+  setInnerText(diceElement, "FRYS");
 
   endRound();
 }
@@ -96,5 +97,4 @@ function resetGame() {
   nameForm.reset();
 }
 
-// resetGame();
 nameForm.reset();
